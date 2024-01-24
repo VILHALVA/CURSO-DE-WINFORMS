@@ -2,15 +2,9 @@
 👨‍⚖️WINFORMS É UMA ABREVIAÇÃO PARA WINDOWS FORMS, QUE É UMA TECNOLOGIA DE INTERFACE GRÁFICA DO USUÁRIO (GUI) DESENVOLVIDA PELA MICROSOFT. ELA PERMITE A CRIAÇÃO DE APLICATIVOS DESKTOP PARA O SISTEMA OPERACIONAL WINDOWS UTILIZANDO A LINGUAGEM DE PROGRAMAÇÃO C#.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=WINFORMS)
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-7.0) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-C-SHARP) <br>
-
+[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-C-SHARP)
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLAzlSdU-KYwVRRO6P9fn1LcoXSITIIev0&si=6wYU0EAxx_ml1kzv)
-
-<img src="https://www.spec-india.com/wp-content/uploads/2023/05/winforms-logo.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # CONCEITO:
 WinForms é uma biblioteca de desenvolvimento de interface gráfica para aplicativos Windows usando a linguagem de programação C#. Vamos abordar alguns conceitos fundamentais e fornecer exemplos de código para ilustrar cada um deles.
