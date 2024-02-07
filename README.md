@@ -1,86 +1,38 @@
 # CURSO DE WINFORMS
 👨‍⚖️WINFORMS É UMA ABREVIAÇÃO PARA WINDOWS FORMS, QUE É UMA TECNOLOGIA DE INTERFACE GRÁFICA DO USUÁRIO (GUI) DESENVOLVIDA PELA MICROSOFT. ELA PERMITE A CRIAÇÃO DE APLICATIVOS DESKTOP PARA O SISTEMA OPERACIONAL WINDOWS UTILIZANDO A LINGUAGEM DE PROGRAMAÇÃO C#.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-7.0) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-C-SHARP)
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLAzlSdU-KYwVRRO6P9fn1LcoXSITIIev0&si=6wYU0EAxx_ml1kzv)
+<img src="FOTO.png" align="center" width="400"> <br>
 
-# CONCEITO:
-WinForms é uma biblioteca de desenvolvimento de interface gráfica para aplicativos Windows usando a linguagem de programação C#. Vamos abordar alguns conceitos fundamentais e fornecer exemplos de código para ilustrar cada um deles.
+## CONCEITO:
+WinForms, ou Windows Forms, é uma biblioteca de desenvolvimento de interface gráfica do usuário (GUI) para aplicativos desktop baseados no sistema operacional Microsoft Windows. Ele foi introduzido pela primeira vez pela Microsoft como parte do Microsoft .NET Framework. WinForms permite que os desenvolvedores criem aplicativos desktop interativos e visualmente atraentes usando uma variedade de controles de interface gráfica, como botões, caixas de texto, listas e muito mais.
 
-## 1. **Formulários (Forms):**
-   Um formulário é a base de qualquer aplicativo WinForms. Ele é a janela principal onde os controles são colocados. Aqui está um exemplo de código para criar um formulário simples:
+1. **Controles (Controls):** WinForms fornece uma ampla variedade de controles de interface gráfica que podem ser usados para criar a interface do usuário de um aplicativo desktop. Isso inclui botões, caixas de texto, listas, caixas de seleção, barras de progresso e muitos outros.
 
-   ```csharp
-   using System;
-   using System.Windows.Forms;
+2. **Eventos e Manipuladores de Eventos:** WinForms segue o modelo de programação baseado em eventos, onde os controles geram eventos em resposta a ações do usuário, como clicar em um botão ou digitar texto em uma caixa de texto. Os desenvolvedores podem escrever manipuladores de eventos para responder a esses eventos e executar código correspondente.
 
-   public class MeuFormulario : Form
-   {
-       public MeuFormulario()
-       {
-           // Configurar propriedades do formulário
-           this.Text = "Meu Formulário";
-           this.Size = new System.Drawing.Size(300, 200);
+3. **Design Visual:** WinForms suporta o design visual de interfaces de usuário, permitindo que os desenvolvedores criem e editem a interface do usuário de forma visual usando ferramentas de design integradas em ambientes de desenvolvimento como o Visual Studio.
 
-           // Adicionar controles, manipuladores de eventos, etc.
-           // Exemplo: Adicionar um botão
-           Button meuBotao = new Button();
-           meuBotao.Text = "Clique-me!";
-           meuBotao.Click += MeuBotao_Click;
+4. **Data Binding:** WinForms suporta data binding, permitindo que os controles sejam ligados a fontes de dados, como bancos de dados ou coleções de objetos, facilitando a exibição e manipulação de dados na interface do usuário.
 
-           this.Controls.Add(meuBotao);
-       }
+5. **Segurança e Controle de Acesso:** WinForms inclui recursos para controle de acesso e segurança, permitindo que os desenvolvedores criem aplicativos desktop seguros e protegidos.
 
-       private void MeuBotao_Click(object sender, EventArgs e)
-       {
-           MessageBox.Show("Você clicou no botão!");
-       }
+6. **Personalização e Extensibilidade:** WinForms é altamente personalizável e extensível, permitindo que os desenvolvedores criem seus próprios controles personalizados e estendam a funcionalidade padrão conforme necessário.
 
-       static void Main()
-       {
-           Application.Run(new MeuFormulario());
-       }
-   }
-   ```
+## SUA HISTÓRIA:
+Windows Forms (WinForms) foi introduzido pela Microsoft como parte do .NET Framework em 2002. Ele foi projetado para simplificar o desenvolvimento de aplicativos desktop para o sistema operacional Windows. Antes do WinForms, o desenvolvimento de aplicativos desktop no Windows era geralmente feito usando a API do Windows (WinAPI), o que exigia um conhecimento profundo de programação em C e era mais complexo e propenso a erros.
 
-   Neste exemplo, criamos um formulário (`MeuFormulario`) e adicionamos um botão a ele. Quando o botão é clicado, exibimos uma caixa de mensagem.
+WinForms forneceu uma abstração de nível mais alto sobre a WinAPI, permitindo aos desenvolvedores criar interfaces gráficas de usuário (GUIs) usando uma abordagem baseada em formulários e controles visuais. Ele trouxe um paradigma de programação mais familiar para muitos desenvolvedores, semelhante ao desenvolvimento de aplicativos desktop em outras plataformas, como Visual Basic e Delphi.
 
-## 2. **Controles:**
-   Controles são elementos visuais que você adiciona ao formulário para interagir com o usuário. Além do botão, há vários outros controles como caixas de texto, rótulos, listas, etc.
+A popularidade do WinForms cresceu rapidamente devido à sua facilidade de uso e à vasta gama de controles e componentes fornecidos pela biblioteca. Ele permitiu que os desenvolvedores criassem rapidamente aplicativos desktop Windows com interfaces de usuário ricas e interativas.
 
-   ```csharp
-   // Exemplo: Adicionar uma caixa de texto e um rótulo ao formulário
-   TextBox minhaCaixaDeTexto = new TextBox();
-   minhaCaixaDeTexto.Text = "Digite algo aqui";
+Com o lançamento do .NET Framework, o WinForms se tornou a principal opção para o desenvolvimento de aplicativos desktop em C# e outras linguagens suportadas pelo .NET. Ele continuou a ser amplamente utilizado ao longo dos anos, mesmo com o surgimento de outras tecnologias de interface gráfica, como WPF (Windows Presentation Foundation) e UWP (Universal Windows Platform).
 
-   Label meuRotulo = new Label();
-   meuRotulo.Text = "Meu Rótulo";
+No entanto, nos últimos anos, o WinForms foi considerado uma tecnologia legada em comparação com as abordagens mais modernas oferecidas pelo WPF e UWP, que oferecem recursos mais avançados de design de interface do usuário e suporte a tecnologias mais recentes, como XAML (Extensible Application Markup Language) e suporte a DPI (dots per inch) escalável.
 
-   this.Controls.Add(minhaCaixaDeTexto);
-   this.Controls.Add(meuRotulo);
-   ```
+Apesar disso, muitas empresas ainda mantêm e desenvolvem aplicativos desktop existentes usando WinForms devido à sua estabilidade, familiaridade e grande base de código já existente. A Microsoft também continuou a oferecer suporte ao WinForms e até introduziu novos recursos e melhorias nas versões mais recentes do .NET Framework e .NET Core.
 
-## 3. **Eventos:**
-   Os eventos são ações que ocorrem durante a interação do usuário. No exemplo acima, usamos o evento `Click` para o botão. Aqui está outro exemplo:
-
-   ```csharp
-   // Exemplo: Adicionar um manipulador de eventos para o evento de alteração de texto da caixa de texto
-   minhaCaixaDeTexto.TextChanged += MinhaCaixaDeTexto_TextChanged;
-
-   private void MinhaCaixaDeTexto_TextChanged(object sender, EventArgs e)
-   {
-       meuRotulo.Text = "Texto alterado: " + minhaCaixaDeTexto.Text;
-   }
-   ```
-
-   Este código atualiza o rótulo sempre que o texto na caixa de texto é alterado.
-
-Estes são apenas conceitos iniciais. WinForms oferece uma ampla variedade de recursos para criar interfaces gráficas interativas. 
-
-# CARACTERÍSTICAS
-## POSITIVAS:
+## CARACTERÍSTICAS
+### POSITIVAS:
 - **Simplicidade:** Windows Forms (WinForms) é conhecido por sua abordagem simples e fácil de usar no desenvolvimento de interfaces gráficas.
 
 - **Rápido Desenvolvimento:** Permite o desenvolvimento rápido de aplicativos devido à sua simplicidade e à ampla disponibilidade de controles prontos para uso.
@@ -93,7 +45,7 @@ Estes são apenas conceitos iniciais. WinForms oferece uma ampla variedade de re
 
 - **Compatibilidade com .NET:** Totalmente integrado ao framework .NET, permitindo fácil integração com outras tecnologias .NET.
 
-## NEGATIVAS:
+### NEGATIVAS:
 - **Aparência Menos Moderna:** A aparência das aplicações WinForms pode parecer menos moderna em comparação com tecnologias mais recentes, devido à falta de recursos gráficos avançados.
 
 - **Menos Flexibilidade de Layout:** Oferece menos flexibilidade em termos de layout e posicionamento de componentes em comparação com tecnologias mais recentes como WPF.
@@ -105,3 +57,11 @@ Estes são apenas conceitos iniciais. WinForms oferece uma ampla variedade de re
 - **Não é Multiplataforma:** Ao contrário de algumas tecnologias mais modernas, WinForms é especificamente destinado para o ambiente Windows, o que limita a portabilidade para outras plataformas.
 
 - **Manutenção de Estado Manual:** Em algumas situações, a manutenção do estado da aplicação pode exigir mais esforço manual em comparação com tecnologias mais recentes.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "DANISABLE PROGRAMACION"](https://youtube.com/playlist?list=PLAzlSdU-KYwVRRO6P9fn1LcoXSITIIev0&si=6wYU0EAxx_ml1kzv)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-7.0)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-C-SHARP)
+- [VEJA O CURSO DE VISUAL STUDIO 2022](https://github.com/VILHALVA/CURSO-DE-VISUAL-STUDIO-2022)
+- [VEJA A SINTAXE](./SINTAXE.md)
