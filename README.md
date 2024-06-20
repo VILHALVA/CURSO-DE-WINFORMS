@@ -59,10 +59,10 @@ Apesar disso, muitas empresas ainda mantêm e desenvolvem aplicativos desktop ex
 - **Manutenção de Estado Manual:** Em algumas situações, a manutenção do estado da aplicação pode exigir mais esforço manual em comparação com tecnologias mais recentes.
 
 ## SUBSIDIOS:
-- [CURSO CRIADO PELO "DANISABLE PROGRAMACION"](https://youtube.com/playlist?list=PLAzlSdU-KYwVRRO6P9fn1LcoXSITIIev0&si=6wYU0EAxx_ml1kzv)
+- [CURSO CRIADO PELO "MONO"](https://github.com/mono/winforms)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-7.0)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-C-SHARP)
-- [VEJA O CURSO DE VISUAL STUDIO 2022](https://github.com/VILHALVA/CURSO-DE-VISUAL-STUDIO-2022)
-- [VEJA A SINTAXE](./SINTAXE.md)
+- [TECNOLOGIA](https://github.com/VILHALVA/CURSO-DE-VISUAL-STUDIO)
+- [VEJA O MANUAL](./MANUAL.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:WINFORMS)
